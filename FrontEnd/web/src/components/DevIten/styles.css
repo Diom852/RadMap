@@ -1,0 +1,45 @@
+
+li.dev-itens{
+    background: #fff;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+li.dev-itens header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.dev-itens header img{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+li.dev-itens header .user-info {
+    margin-left: 10px;
+}
+.user-info strong {
+    font-size: 16px;
+    display: block;
+    color: #333;
+}
+.user-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+.user-info p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px 0px;
+}
+li.dev-itens a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #999900;
+}
+li.dev-itens a:hover {
+    color: red;
+}
